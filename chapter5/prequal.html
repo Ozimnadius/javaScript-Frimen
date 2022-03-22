@@ -54,17 +54,6 @@ function prequal(car) {
     return true;
 }
 
-var worthALook = prequal(taxi);
-
-if (worthALook) {
-    console.log("You gotta check out this " + taxi.make + " " + taxi.model);
-} else {
-    console.log("You should really pass on the " + taxi.make + " " + taxi.model);
-}
-
-//
-// add a function to make it easier to generate the console output!
-//
 function isWorthALook(didQualify, car) {
 	if (didQualify) {
 		console.log("You gotta check out this " + car.make + " " + car.model);
